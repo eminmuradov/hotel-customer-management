@@ -1,0 +1,11 @@
+<Context>
+<Resource
+        name="jdbc/hotel"
+        auth="Container"
+        type="javax.sql.DataSource"
+        username="hotel"
+        password="oracle123"
+        driverClassName="oracle.jdbc.OracleDriver"
+        url="jdbc:oracle:thin:@localhost:1521:XE"
+/>
+</Context>
